@@ -1,0 +1,15 @@
+{
+  "name": "gob-monitor",
+  "version": "1.0.0",
+  "description": "GoB chat monitor — runs headless Puppeteer on Railway",
+  "main": "gob-monitor.js",
+  "scripts": {
+    "start": "node gob-monitor.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
